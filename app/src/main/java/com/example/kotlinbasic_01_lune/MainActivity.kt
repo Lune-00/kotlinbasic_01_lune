@@ -14,8 +14,8 @@ class MainActivity : AppCompatActivity() {
 //        문법 연습 (변수)
 
 //        변수 만들기
-        val myName : String  //value : 상수
-        var myAge : Int  //variable : 변수
+   //     val myName : String  //value : 상수
+   //     var myAge : Int  //variable : 변수
 //        일반적으로 사용하는 변수 생성
         val myName : "Lune"  //변수 생성+대입 (한번에 진행) >변수의 초기화 (무엇을 넣느냐에 따라 변수의 자료형이 알아서 기록됨)
 
