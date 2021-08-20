@@ -11,13 +11,33 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+//        문법 연습 (조건문)
+//        나이를 확인해서 > 성인인가/아닌가
+
+        val userAge = 10
+
+        if (userAge >= 20) {
+
+            Log.d("성인판별", "성인이 맞습니다.")
+        }
+        else if (userAge >= 17) {
+                Log.d("성인판별", "고등학생")
+            }
+        else if (userAge >= 14) {
+            Log.d("성인판별", "중학생")
+        }
+        else {
+                Log.d("성인판별", "성인이 아닙니다.")
+            }
+
 //        문법 연습 (변수)
 
 //        변수 만들기
    //     val myName : String  //value : 상수
    //     var myAge : Int  //variable : 변수
 //        일반적으로 사용하는 변수 생성
-        val myName : "Lune"  //변수 생성+대입 (한번에 진행) >변수의 초기화 (무엇을 넣느냐에 따라 변수의 자료형이 알아서 기록됨)
+
+   //     val myName : "Lune"  //변수 생성+대입 (한번에 진행) >변수의 초기화 (무엇을 넣느냐에 따라 변수의 자료형이 알아서 기록됨)
 
 
         clickBtn.setOnClickListener {
